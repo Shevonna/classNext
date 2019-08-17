@@ -1,0 +1,40 @@
+{
+  "name": "classNext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/server.js",
+    "build": "next build ./src",
+    "start": "NODE_ENV=production node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shevonna/classNext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shevonna/classNext/issues"
+  },
+  "homepage": "https://github.com/Shevonna/classNext#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.6.9",
+    "next": "^9.0.3",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.2.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "uid-safe": "^2.1.5"
+  }
+}
